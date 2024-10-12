@@ -29,7 +29,23 @@ git clone https://github.com/secretniy/blum-bot.git
 cd blum-bot/
 python3 -m pip install -r requirements.txt --break-system-packages
 ```
+Enter you (`query_id=... /user=...`) in file data.txt.
 
+How to find [query_id=... /user=..](https://t.me/secretniy)
+
+To change a file in bash use the command `nano data.txt`
+
+`ctrl+o` `enter` -  save file.
+
+`ctrl+x` -  exit editor.
+
+
+Modify the config.json file as desired.
+
+To enable functions set `true`
+To disable functions `false`
+
+To change a config file in bash use the command `nano config.json`
 
 #Windows
 later..
@@ -39,7 +55,7 @@ later..
 
 | Run with Proxy                   | Run without Proxy   |
 | -------------------------------- | ------------------- |
-| `bot-proxy.py` `data-proxy.json` | `bot.py` `data.txt` |
+| `python3 bot-proxy.py`          |  `python3 bot.py`    |
 
 ## ⚠️ Note
 
