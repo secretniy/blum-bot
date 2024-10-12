@@ -6,8 +6,8 @@
 
 Join our Telegram group to stay updated and get instructions on how to use this tool:
 
-- [Smart Airdrop](https://t.me/secretniy)
-- [Smart Airdrop - Channel](https://t.me/+eTYhicQb1KczYTYy)
+- [Secretniy Channel](https://t.me/secretniy)
+- [Secretniy Chat](https://t.me/+eTYhicQb1KczYTYy)
 
 ## 🌟 Features
 
