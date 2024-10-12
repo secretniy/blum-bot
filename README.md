@@ -1,4 +1,4 @@
-# Table of Contents
+# Table of Languages
 - [English](#English)
 - [Русский](#Русский)
 # English
