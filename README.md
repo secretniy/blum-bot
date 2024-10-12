@@ -28,23 +28,11 @@ apt install -y git python3 python3-pip
 git clone https://github.com/secretniy/blum-bot.git
 cd blum-bot/
 python3 -m pip install -r requirements.txt --break-system-packages
-```shell
-
-
-~/TimeFarmBot >>> pip3 install -r requirements.txt
-
-~/TimeFarmBot >>> python3 main.py
-
-#Windows
-~/TimeFarmBot >>> python -m venv venv
-~/TimeFarmBot >>> venv\Scripts\activate
-~/TimeFarmBot >>> pip install -r requirements.txt
-~/TimeFarmBot >>> copy .env-example .env
-~/TimeFarmBot >>> # Specify your API_ID and API_HASH, the rest is taken by default
-~/TimeFarmBot >>> python main.py
 ```
 
-Also, for a quick launch, you can use arguments, for example:
+
+#Windows
+later..
 
 
 ## 🚀 Run File
