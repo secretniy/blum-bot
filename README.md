@@ -29,7 +29,7 @@ git clone https://github.com/secretniy/blum-bot.git
 cd blum-bot/
 python3 -m pip install -r requirements.txt --break-system-packages
 ```
-Enter you (`query_id=... /user=...`) in file data.txt.
+Enter you (`query_id=... /user=...`) in file data.txt.Each new token from a new line.
 
 How to find [query_id=... /user=..](https://t.me/secretniy)
 
