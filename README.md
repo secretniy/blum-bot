@@ -20,8 +20,7 @@ Join our Telegram group to stay updated and get instructions on how to use this 
 | Auto Farm      | On/Off | Claim and Start farming points             |
 | Auto Play Game | On/Off | Play drop game to get more points          |
 
-## 🧑‍🔧 How to install
-
+## 🧑‍🔧 How to install in Linux
 #Linux
 ```shell
 apt install -y git python3 python3-pip
@@ -29,7 +28,7 @@ git clone https://github.com/secretniy/blum-bot.git
 cd blum-bot/
 python3 -m pip install -r requirements.txt --break-system-packages
 ```
-Enter you (`query_id=... /user=...`) in file data.txt.Each new token from a new line.
+Enter you (`query_id=... /user=...`) in file data.txt. Each new token from a new line.
 
 How to find [query_id=... /user=..](https://t.me/secretniy)
 
@@ -47,9 +46,58 @@ To disable functions `false`
 
 To change a config file in bash use the command `nano config.json`
 
+## 👩‍🔧 How to install in Windows
 #Windows
-later..
+1. Make sure you computer was installed python and git.
+   
+   python site : [https://python.org](https://python.org)
+   
+   git site : [https://git-scm.com/](https://git-scm.com/)
 
+2. Clone this repository
+   ```shell
+   git clone https://github.com/secretniy/blum-bot.git
+   ```
+
+3. goto blum-bot directory
+   ```
+   cd blum-bot
+   ```
+
+4. install the require library
+   ```
+   python -m pip install -r requirements.txt
+   ```
+
+5. Edit `data.txt`, input you data token in `data.txt`, find you token in How to find [query_id=... /user=..](https://t.me/secretniy). One line for one data account, if you want add you second account add in new line!
+
+6. execute the main program 
+   ```
+   python bot.py
+   ```
+
+
+## 🌎 About Proxy
+
+Register on this site to get free proxy : [Here](https://t.me/secretniy)
+
+You can add your proxy list in `proxies.txt` and proxy format is like example below :
+
+Format :
+
+```
+http://host:port
+http://user:pass@host:port
+```
+
+Example :
+
+```
+http://127.0.0.1:6969
+http://user:pass@127.0.0.1:6969
+socks5://127.0.0.1:6969
+socks5://user:pass@127.0.0.1:6969
+```
 
 ## 🚀 Run File
 
